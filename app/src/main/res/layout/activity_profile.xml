@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    tools:context="lt.kvk.i11.radiukiene_vitalija.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap image to choose profile picture"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/icon"
+            android:scaleType="centerCrop"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_centerHorizontal="true"/>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/editTextDisplayName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"/>
+
+    <TextView
+        android:id="@+id/textViewVerified"
+        android:text="Verified"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="55dp"
+        android:paddingRight="55dp"
+        android:text="SAVE"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>

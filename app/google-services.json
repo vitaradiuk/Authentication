@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1049864157915",
+    "firebase_url": "https://authentication-fc1ef.firebaseio.com",
+    "project_id": "authentication-fc1ef",
+    "storage_bucket": "authentication-fc1ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049864157915:android:e1434379e42e5999",
+        "android_client_info": {
+          "package_name": "lt.kvk.i11.radiukiene_vitalija"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049864157915-jj0bf6jic6r95i6iub464gl5pbk214h4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lt.kvk.i11.radiukiene_vitalija",
+            "certificate_hash": "8e200415056ebe791088e529db08c38cf67ebe85"
+          }
+        },
+        {
+          "client_id": "1049864157915-ctcldgo3633uk85snhb3gqoa6hkb4nrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsx4LyCDGEMIau9jYb_fhSOxgl_w8YvfE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049864157915-ctcldgo3633uk85snhb3gqoa6hkb4nrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
